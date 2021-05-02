@@ -1,0 +1,11 @@
+.img-1 {
+    background-image:
+    url(/HW-2/img/1.PNG);
+    width: 100px;
+    height: 200px;
+    background-repeat: no-repeat;
+}
+
+.img-1:hover {
+    background-image: url(/HW-2/);
+}

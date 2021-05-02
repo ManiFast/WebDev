@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <title>Document</title>
+ <style>
+  
+  
+  .animate {
+   width: 200px; height: 100px;
+   transition: 0.5s all;
+   background: yellow;
+  }
+  
+  .wrapper {
+   width: 200px; height: 200px;
+   background: pink;
+   text-align: center;
+  }
+  
+  .up {
+   position: relative;
+   
+   trasition: 0.5s all;
+   bottom: 0;
+   opacity: 1;
+  }
+  .wrapper:hover .up {
+   transition: 0.5s all;
+   bottom: -30px;
+   opacity: 0;
+  }
+  
+if id=ryjey:>=led
+  
+  
+  .wrapper:hover .down {
+   transition: 0.5s all;
+   top: -30px;
+   opacity: 0;
+  }
+  .down { 
+   transition: 0.5s all;
+   position: relative;
+   top: 0;
+    opacity: 1;
+  }
+  
+  
+  
+  .transform {
+   margin-top: 200px;
+  }
+  .cub {
+   background: blue;
+   width: 200px; height: 200px;
+   transition: 0.5s all;
+/*
+   
+   -moz-transform: scale(0.9) rotate(79deg) translate(-36px, 11px) skew(-41deg, 52deg);
+-webkit-transform: scale(0.9) rotate(79deg) translate(-36px, 11px) skew(-41deg, 52deg);
+-o-transform: scale(0.9) rotate(79deg) translate(-36px, 11px) skew(-41deg, 52deg);
+-ms-transform: scale(0.9) rotate(79deg) translate(-36px, 11px) skew(-41deg, 52deg);
+transform: scale(0.9) rotate(79deg) translate(-36px, 11px) skew(-41deg, 52deg);
+*/
+
+
+  }
+  
+  .cub:hover {
+/*
+   -moz-transform: scale(0.9) rotate(79deg) translate(-36px, 11px) skew(51deg, -60deg);
+-webkit-transform: scale(0.9) rotate(79deg) translate(-36px, 11px) skew(51deg, -60deg);
+-o-transform: scale(0.9) rotate(79deg) translate(-36px, 11px) skew(51deg, -60deg);
+-ms-transform: scale(0.9) rotate(79deg) translate(-36px, 11px) skew(51deg, -60deg);
+transform: scale(0.9) rotate(79deg) translate(-36px, 11px) skew(51deg, -60deg);
+*/
+  }
+  
+  
+  @keyframes cub-resize {
+    0% {
+    -moz-transform: translate(1px, 6px) skew(23deg, 0deg);
+    -webkit-transform: translate(1px, 6px) skew(23deg, 0deg);
+    -o-transform: translate(1px, 6px) skew(23deg, 0deg);
+    -ms-transform: translate(1px, 6px) skew(23deg, 0deg);
+    transform: translate(1px, 6px) skew(23deg, 0deg);
+    
+    width: 100px;
+   }
+   25% {
+    background: green;
+   }
+   50% {
+    background: black;
+    width: 500px;
+   }
+   75% {
+    background: pink;
+   }
+    100% {
+     -moz-transform: translate(1px, 6px) skew(-26deg, 0deg);
+    -webkit-transform: translate(1px, 6px) skew(-26deg, 0deg);
+    -o-transform: translate(1px, 6px) skew(-26deg, 0deg);
+    -ms-transform: translate(1px, 6px) skew(-26deg, 0deg);
+    transform: translate(1px, 6px) skew(-26deg, 0deg);
+    
+    width: 100px;
+   }
+  }
+  
+  .cub {
+   animation-name: cub-resize;
+   animation-duration: 4s;
+   
+   animation-iteration-count: infinite;
+  }
+ </style>
+</head>
+<body>
+  
+  <div class="wrapper">
+   <div class="up"> Up text</div>
+   <div class="animate"></div>
+   <div class="down">down</div>
+  </div><!-- /.wrapper -->
+  
+  
+  <div class="transform">
+   <div class="cub"></div>
+  </div>
+  
+
+</body>
+
+</html>

@@ -1,0 +1,213 @@
+body {
+    font-family:
+    "Open Sans", sans-serif;
+    margin: 0px;
+}
+
+/* Content */
+
+.backg {
+    width: 100%;
+    height: 932px;
+    background-image:
+    url(../img/background-image.png);
+    /* По всем сторонам x y */
+    background-size: cover;
+    /* Без повтора */
+    background-repeat: no-repeat;
+}
+
+.c-1 {
+    width: 1170px;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.block-left {
+    width: 900px;
+    height: 430px;
+    margin-top: 20.5%;
+    margin-left: 27px;
+    float: left;
+}
+
+.block-left-1 {
+    width: 50%;
+    height: 100%;
+    float: left;
+    background-color: #fff;
+}
+
+.content-left {
+    float: left;
+    padding-top: 25%;
+    padding-left: 35px;
+    margin-right: 8px;
+    
+}
+
+.palochka {
+    width: 3px;
+    height: 74px;
+    background-color: #121212;
+    float: left;
+    margin-right: 15px;
+}
+
+.left-p {
+    /* Все заглавные */
+    text-transform: uppercase;
+    margin: 0;
+    font-size: 32px;
+    /* Пробел от букв */
+    letter-spacing: 0.5px;
+    /* Толщина */
+    font-weight: 750;
+    margin-top: -8px;
+}
+
+.p-short {
+    color: #F78B26;
+}
+
+.p-down {
+    color: #343434;
+    float: left;
+    font-style: italic;
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+/* Button */
+
+.button{
+    float: left;
+    text-decoration: none;
+    color: black;
+    width: 130px;
+    height: 40px;
+    line-height: 45px;
+    margin: 10px 0px;
+    font-family: sans-serif;
+    font-size: 12px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 600;
+    border: 1px #343434 solid;
+  }
+
+.button:hover {
+    background: none;
+    color: #F78B26;
+    border: 1px #F78B26 solid;
+}
+
+/* And button */
+
+.block-left-2 {
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+
+.home-image {
+    width: 95%;
+    height: 100%;
+}
+
+.nav_left{
+    float: right;
+    width: 18.5%;
+    margin-top: 0px;
+    margin-top: 270px;
+}
+
+/* Buttons */
+
+.a1{
+    text-decoration: none;
+    display: inline-block;
+    width: 195px;
+    height: 50px;
+    color: #121212;
+    line-height: 40px;
+    margin: 10px ;   
+    text-transform: uppercase;
+    font-size: 14px;
+    text-align: center;
+    font-weight: 800;
+    background:#ffffff;
+    padding: 5px;
+}
+
+.a1:hover {
+    transition: .4s;
+    background: #fff;
+    color: #F78B26;
+}
+
+.a2{
+    text-decoration: none;
+    display: inline-block;
+    width: 195px;
+    height: 50px;
+    color: #F78B26;
+    line-height: 45px;
+    margin: 10px ;   
+    text-transform: uppercase;
+    font-size: 14px;
+    text-align: center;
+    font-weight: 800;
+    background:#ffffff;
+    padding: 5px;
+}
+
+.a2:hover {
+    background: #fff;
+    color: #000000;
+}
+
+.log{
+    margin-left: 10px;
+    width: 195px;
+    height: 50px;
+    /* Незнаю зачем это */
+    margin-top: -30;
+    margin-bottom: 30px;
+    margin-top: 280px;
+    /* "!!" */
+    position: relative;
+    top: -50px;
+}
+
+/* And buttons */
+
+/* And content */
+
+/* Footer */
+
+.footer {
+    width: 100%;
+}
+
+.footer-p {
+    color: #7A7A7A;
+    padding: 20px 0px 15px 0px;
+    margin: 0;
+    font-size: 13px;
+    text-align: center;
+}
+
+.footer-link {
+    text-decoration: none;
+    color: #F78B26;
+}
+
+.footer-link:hover {
+    text-decoration: underline black;
+}
+
+/* And footer */

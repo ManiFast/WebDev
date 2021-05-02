@@ -1,0 +1,7 @@
+body {padding: 0; margin: 0;}
+
+.home-page { 
+	float: left;
+	background-color: royalblue;
+	height: 300px;
+}

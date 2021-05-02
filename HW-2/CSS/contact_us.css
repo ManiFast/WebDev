@@ -1,0 +1,249 @@
+@import
+url('https://fonts.googleapis.com/css?family=Open+Sans:400,800&display=swap');
+
+body {
+    font-family:
+    "Open Sans", sans-serif;
+    margin: 0px;
+}
+
+.backg {
+    width: 100%;
+    height: 932px;
+    background-image:
+    url(../img/background-image.png);
+    
+    background-size: cover;
+    
+    background-repeat: no-repeat;
+}
+
+.c-1 {
+    width: 1170px;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    position: relative;
+    top: -20px;
+}
+
+.block-left {
+    width: 860px;
+    height: 425px;
+    margin-top: 23%;
+    margin-left: 27px;
+    float: left;
+}
+
+.block-left-1 {
+    width: 50%;
+    height: 100%;
+    background-color: white;
+    float: left;
+}
+
+.say_hello {
+    text-transform: uppercase;
+    background-color: #F78B26;
+    text-align: center;
+    padding: 12px 28px;
+    display: inline-block;
+    color: white;
+    font-weight: 900;
+    font-size: 24px;
+    position: relative;
+    left: 125px;
+    top: -25px;
+}
+
+.in-form {
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+.form-1 {
+    border: none;
+    margin-bottom: 20px;
+    padding-left: 15px;
+    width: 92%;
+    height: 40px;
+    display: inline-block;
+    line-height: 40px;
+    font-size: 13px;
+    background-color: #f4f4f4;
+    color: #9999;
+    border-radius: 0;
+    float: left;
+}
+
+.form-2 {
+    border: none;
+    margin-bottom: 20px;
+    padding-left: 15px;
+    width: 92%;
+    height: 40px;
+    display: inline-block;
+    line-height: 40px;
+    font-size: 13px;
+    color: #aaa;
+    background-color: #f4f4f4;
+    border-radius: 0;
+    float: left;
+    clear: both;
+}
+
+.button {
+    float: left;
+    text-decoration: none;
+    color: black;
+    width: 70px;
+    height: 40px;
+    line-height: 45px;
+    font-size: 12px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 600;
+    font-family: sans-serif;
+    border: 1px #343434 solid;
+    position: relative;
+    left: 185px;
+    top: 160px;
+}
+
+.button:hover {
+    transition: 1;
+    border: 1px #f78b26 solid;
+    color: #f78b26;
+}
+
+.form-1:hover {
+    -webkit-box-shadow: 0px 0px 13px 8px 
+    rgba(190,221,247,0.94);
+    -moz-box-shadow: 0px 0px 13px 8px 
+    rgba(190,221,247,0.94);
+    box-shadow: 0px 0px 13px 8px 
+    rgba(190,221,247,0.94);
+}
+
+.form-2:hover {
+    -webkit-box-shadow: 0px 0px 13px 8px 
+    rgba(190,221,247,0.94);
+    -moz-box-shadow: 0px 0px 13px 8px 
+    rgba(190,221,247,0.94);
+    box-shadow: 0px 0px 13px 8px 
+    rgba(190,221,247,0.94);
+}
+
+.form-3:hover {
+    -webkit-box-shadow: 0px 0px 13px 8px 
+    rgba(190,221,247,0.94);
+    -moz-box-shadow: 0px 0px 13px 8px 
+    rgba(190,221,247,0.94);
+    box-shadow: 0px 0px 13px 8px 
+    rgba(190,221,247,0.94);
+}
+
+.block-left-2 {
+    width: 50%;
+    height: 100%;
+    background-color: white;
+    float: left;
+}
+
+.block-left-2-p-1 {
+    margin-bottom: 10px;
+    padding: 60px 30px 0px 0px;
+    padding-left: 15px;
+    font-size: 14px;
+}
+
+.span-p-1 {
+    font-weight: 500;
+    font-style: normal;
+    color: #333333;
+}
+
+.nav_left {
+    float: right;
+    width: 18.5%;
+    margin-top: 0px;
+    margin-top: 280px;
+    position: relative;
+    top: 305px;
+}
+
+.a1 {
+    text-decoration: none;
+    display: inline-block;
+    width: 195px;
+    height: 50px;
+    color: #121212;
+    line-height: 45px;
+    margin: 10px ;   
+    text-transform: uppercase;
+    font-size: 14px;
+    text-align: center;
+    font-weight: 800;
+    background:#ffffff;
+    padding: 5px;
+}
+
+.a1:hover {
+    transition: .4s;
+    background: #fff;
+    color: #F78B26;
+}
+
+.log {
+    margin-left: 12.5px;
+     width: 195px;
+    height: 50px;
+    margin-top: -30px;
+    position: relative;top: -50px;
+}
+
+
+.footer {
+    width: 100%;
+}
+
+.footer-p {
+    color: #7A7A7A;
+    padding: 20px 0px 15px 0px;
+    margin: 0;
+    font-size: 13px;
+    text-align: center;
+}
+
+.footer-link {
+    text-decoration: none;
+    color: #F78B26;
+}
+
+.footer-link:hover {
+    text-decoration: underline black;
+}
+
+.a2{
+    text-decoration: none;
+    display: inline-block;
+    width: 195px;
+    height: 50px;
+    color: #F78B26;
+    line-height: 45px;
+    margin: 10px ;   
+    text-transform: uppercase;
+    font-size: 14px;
+    text-align: center;
+    font-weight: 800;
+    background:#ffffff;
+    padding: 5px;
+}
+
+.a2:hover {
+    transition: .300s;
+    background: #fff;
+    color: #000000;
+}
